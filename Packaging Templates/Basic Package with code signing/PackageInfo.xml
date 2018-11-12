@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<pkg-info postinstall-action="logout" format-version="2" identifier="com.example.SourceCodePro" version="2.030d" generator-version="InstallCmds-554 (15G1004)" install-location="/" auth="root">
+    <payload numberOfFiles="31" installKBytes="1841" />
+    <bundle-version/>
+    <upgrade-bundle/>
+    <update-bundle/>
+    <atomic-update-bundle/>
+    <strict-identifier/>
+    <relocate/>
+    <scripts>
+        <preinstall file="./preinstall" />
+        <postinstall file="./postinstall" />
+    </scripts>
+</pkg-info>

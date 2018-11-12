@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# SourceCodePro postinstall script
+
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin
+
+# Run only if installing on the current boot partition
+
+if [[ "$3" = "/" ]]; then
+	# Use atsutil to clear the font cache
+	atsutil databases -remove
+fi
